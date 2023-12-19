@@ -5,7 +5,7 @@ function FAQs({ titulo, descripcion }) {
   const Styles = `font-WorkSansSemiBlod list-none after:${
     !open ? "content-Open" : "content-Close"
   } flex items-center justify-between sm:text-lg  
-  cursor-pointer hover:text-[#a43ed1] pb-5 Mobile:hover:text-[#2f1533] Mobile:text-sm Mobile:gap-6`;
+  cursor-pointer sm:hover:text-[#a43ed1] pb-5 Mobile:hover:text-[#2f1533] Mobile:text-sm Mobile:gap-6`;
   const ToggleOpen = () => {
     setOpen(!open);
   };
