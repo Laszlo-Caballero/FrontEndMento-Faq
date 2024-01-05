@@ -17,7 +17,7 @@ export default {
         Close: 'url("./src/assets/images/icon-minus.svg")',
       },
       screens: {
-        Mobile: "375px",
+        Mobile: "300px",
       },
     },
   },
